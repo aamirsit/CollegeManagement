@@ -1,0 +1,35 @@
+.box{
+	border-radius: 50%;
+	overflow: hidden;
+	width:150px;
+	height:150px;
+	margin: 50px;
+	margin-left: 90px;
+	margin-bottom: 30px;
+}
+.info{
+	display: block;
+	padding: 20px;
+	font-size: 16px;
+}
+	
+
+.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\2212";
+    float: right;
+    color: grey;
+}
+.panel-heading a.collapsed:after {
+    content:"\2b";
+}
+
+.panel-heading a:after {
+  font-family:'Glyphicons Halflings';
+  content:"\2212";
+  float: right;
+  color: grey;
+}
+.panel-heading a.collapsed:after {
+  content:"\2b";
+}
